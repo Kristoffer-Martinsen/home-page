@@ -1,0 +1,9 @@
+.ProjectItem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ProjectItem {
+    margin: 0 1rem;
+    max-width: 30%;
+}
