@@ -3,6 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 2rem 0;
+    padding: 1rem;
+    background-color: #2980B9;
 }
 
 .ListOfProjects h1 {

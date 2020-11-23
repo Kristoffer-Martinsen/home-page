@@ -5,5 +5,7 @@
 
 .ProjectItem {
     margin: 1rem 1rem;
-    max-width: 30%;
+    padding: 1rem;
+    max-width: 25%;
+    background-color: #3498DB;
 }
