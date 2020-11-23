@@ -4,3 +4,7 @@
     flex-wrap: wrap;
     margin: 2rem 0;
 }
+
+.ListOfProjects h1 {
+    width: 100%;
+}
