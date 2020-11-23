@@ -1,0 +1,1 @@
+A portfolio page for my software developer career. Made with ReactJS and CSS. 
