@@ -1,7 +1,17 @@
 .Skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-left: 2rem;
+    margin-bottom: 2rem;
 }
 
-.Skills ul {
-    padding-left: 3rem;
+.Skills h1 {
+    width: 100%;
+}
+
+.Skills h2 {
+    text-decoration: underline;
+    margin-bottom: 0.2rem;
 }
