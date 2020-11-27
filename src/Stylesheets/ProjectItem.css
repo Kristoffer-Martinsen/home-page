@@ -10,6 +10,7 @@
     margin: 1rem 1rem;
     padding: 1rem;
     max-width: 20%;
+    min-height: 22rem;
     background-color: #3498DB;
     border-style: solid;
     border-color: #ECF0F1;
