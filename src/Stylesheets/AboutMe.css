@@ -1,11 +1,19 @@
 .AboutMe {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin: 2rem;
 }
 
-.AboutMe h1 {
-    width: 100%;
+.AboutMe img {
+    margin-right: 2rem;
+    max-width: 20%;
+    background-color: #2980B9;
+    padding: 1rem;
+}
+
+.AboutMeText {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
