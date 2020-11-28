@@ -8,6 +8,7 @@ function Skills() {
             <div className="Languages">
                 <h2>Languages</h2>
                 <h3>Java</h3>
+                <h3>C#</h3>
                 <h3>JavaScript</h3>
                 <h3>HTML5</h3>
                 <h3>CSS</h3>
