@@ -23,7 +23,8 @@ function Skills() {
             </div>
             <div className="Other">
                 <h2>Other</h2>
-                
+                <h3>Agile methods</h3>
+                <h3>SCRUM</h3>
             </div>
         </div>
     )
