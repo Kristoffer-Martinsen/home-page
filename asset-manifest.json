@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home-page/static/css/main.3977dd3a.chunk.css",
+    "main.js": "/home-page/static/js/main.c0b8a8cf.chunk.js",
+    "main.js.map": "/home-page/static/js/main.c0b8a8cf.chunk.js.map",
+    "runtime-main.js": "/home-page/static/js/runtime-main.faf37348.js",
+    "runtime-main.js.map": "/home-page/static/js/runtime-main.faf37348.js.map",
+    "static/js/2.a26a6738.chunk.js": "/home-page/static/js/2.a26a6738.chunk.js",
+    "static/js/2.a26a6738.chunk.js.map": "/home-page/static/js/2.a26a6738.chunk.js.map",
+    "static/js/3.010de9da.chunk.js": "/home-page/static/js/3.010de9da.chunk.js",
+    "static/js/3.010de9da.chunk.js.map": "/home-page/static/js/3.010de9da.chunk.js.map",
+    "index.html": "/home-page/index.html",
+    "static/css/main.3977dd3a.chunk.css.map": "/home-page/static/css/main.3977dd3a.chunk.css.map",
+    "static/js/2.a26a6738.chunk.js.LICENSE.txt": "/home-page/static/js/2.a26a6738.chunk.js.LICENSE.txt",
+    "static/media/CollectingParts.8f4fa888.png": "/home-page/static/media/CollectingParts.8f4fa888.png",
+    "static/media/home-page.e9c2930a.png": "/home-page/static/media/home-page.e9c2930a.png",
+    "static/media/meClimbing.68a523f0.jpg": "/home-page/static/media/meClimbing.68a523f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faf37348.js",
+    "static/js/2.a26a6738.chunk.js",
+    "static/css/main.3977dd3a.chunk.css",
+    "static/js/main.c0b8a8cf.chunk.js"
+  ]
+}
