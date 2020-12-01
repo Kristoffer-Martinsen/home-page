@@ -1,3 +1,16 @@
-.ContactMe h3{
+.ContactMe {
+    padding: 1rem 0;
+    padding-left: 2rem;
+    background-color: #2980B9;
+    color: #ECF0F1;
+}
+
+.ContactMe h1 {
+    width: 100%;
+}
+
+.ContactMe div {
     text-align: center;
 }
+
+
