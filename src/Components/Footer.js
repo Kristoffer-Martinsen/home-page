@@ -1,10 +1,16 @@
 import React from 'react';
-import '../Stylesheets/Footer.css'
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
 function Footer() {
     return (
-        <div className="Footer">
-            <p>Copyright Kristoffer Martinsen 2020</p>
+        <div fixed="bottom" className="w-100">  
+            <Navbar>
+                <Container>
+                    <NavbarBrand className="m-auto">Footer</NavbarBrand>
+                </Container>
+            </Navbar>
         </div>
     )
 }

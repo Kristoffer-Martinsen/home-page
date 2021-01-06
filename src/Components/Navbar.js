@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Stylesheets/Navbar.css';
 import {Link} from 'react-scroll';
 
 function Navbar() {

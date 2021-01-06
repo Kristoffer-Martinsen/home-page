@@ -1,31 +1,44 @@
 import React from 'react';
-import '../Stylesheets/Skills.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 function Skills() {
     return(
         <div className="Skills">
             <h1>Skills:</h1>
-            <div className="Languages">
-                <h2>Languages</h2>
-                <h3>Java</h3>
-                <h3>C#</h3>
-                <h3>JavaScript</h3>
-                <h3>HTML5</h3>
-                <h3>CSS</h3>
-            </div>
-            <div className="Technology">
-                <h2>Technology</h2>
-                <h3>Git</h3>
-                <h3>Jira</h3>
-                <h3>Confluence</h3>
-                <h3>Vs Code</h3>
-                <h3>IntelliJ</h3>
-            </div>
-            <div className="Other">
-                <h2>Other</h2>
-                <h3>Agile methods</h3>
-                <h3>SCRUM</h3>
-            </div>
+            <Container fluid>
+                <Row>
+                    <Col>
+                        <h2>Languages</h2>
+                        <ListGroup variant="flush">
+                            <ListGroup.Item>Java</ListGroup.Item>
+                            <ListGroup.Item>C#</ListGroup.Item>
+                            <ListGroup.Item>JavaScript</ListGroup.Item>
+                            <ListGroup.Item>HTML5</ListGroup.Item>
+                            <ListGroup.Item>CSS</ListGroup.Item>
+                        </ListGroup>
+                    </Col>
+                    <Col>
+                        <h2>Technology</h2>
+                        <ListGroup variant="flush">
+                            <ListGroup.Item>Git</ListGroup.Item>
+                            <ListGroup.Item>Jira</ListGroup.Item>
+                            <ListGroup.Item>Confluence</ListGroup.Item>
+                            <ListGroup.Item>Visual Studio Code</ListGroup.Item>
+                            <ListGroup.Item>IntelliJ</ListGroup.Item>
+                        </ListGroup>
+                    </Col>
+                    <Col>
+                        <h2>Other</h2>
+                        <ListGroup variant="flush">
+                        <ListGroup.Item>Agile Methods</ListGroup.Item>
+                        <ListGroup.Item>SCRUM</ListGroup.Item>
+                        </ListGroup>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

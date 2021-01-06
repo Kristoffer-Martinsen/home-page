@@ -1,16 +1,18 @@
 import React from 'react';
-import { GitHub } from 'react-feather';
-import { Linkedin } from 'react-feather';
-import '../Stylesheets/Header.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 function Header() {
     return (
-        <div className="Header">
-            <h1>Kristoffer Martinsen</h1>
-            <hr></hr>
-            <a href="https://github.com/Kristoffer-Martinsen"><GitHub/></a>
-            <a href="https://www.linkedin.com/in/kristoffer-martinsen-11b07a167/"><Linkedin/></a>
-        </div>
+        <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="#home">Kristoffer Martinsen</Navbar.Brand>
+            <Nav className="mr-auto">
+                <Nav.Link href="#AboutMe">About me</Nav.Link>
+                <Nav.Link href="#Projects">Projects</Nav.Link>
+                <Nav.Link href="#Skills">Skills</Nav.Link>
+                <Nav.Link href="#ContactMe">Contact me</Nav.Link>
+            </Nav>
+        </Navbar>
     )
 }
 

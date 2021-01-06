@@ -1,13 +1,19 @@
 import React from 'react';
-import '../Stylesheets/ProjectItem.css';
+import Card from 'react-bootstrap/Card';
 
 function ProjectItem({nameProject, linkToProject, descriptionProject, pathToImage}) {
     return (
-        <a href={linkToProject} className="ProjectItem">
-            <img src={pathToImage} alt='Screenshot of Collecting Parts'></img>
-            <h1>{nameProject}</h1>
-            <p>{descriptionProject}</p>
-        </a>
+        <Card className="mw-50">
+            <Card.Img variant="top" src={pathToImage}></Card.Img>
+            <Card.Body>
+                <Card.Title>{nameProject}</Card.Title>
+                <Card.Text>
+                    {descriptionProject}
+                </Card.Text>
+                <Card.Link href={linkToProject}>Code</Card.Link>
+                <Card.Link href={linkToProject}>Try</Card.Link>
+            </Card.Body>
+        </Card>
     )
 }
 
