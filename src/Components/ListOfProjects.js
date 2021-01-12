@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import CollectingParts from '../Images/CollectingParts.png';
-import Homepage from '../Images/home-page.png';
 import ProjectItem from './ProjectItem';
 import CardColumns from 'react-bootstrap/CardColumns';
 import Container from 'react-bootstrap/Container';
-
 
 
 const initalProjectList = [
@@ -14,7 +11,7 @@ const initalProjectList = [
         githubLink: "https://github.com/Kristoffer-Martinsen/Collecting-Parts",
         demoLink: "https://legendaryhippo.itch.io/collecting-parts",
         description: "My entry in the Ludum Dare 45 Game Jam. The Theme was starting with nothing. My entry is a platformer where you have to collect all your abilities from jumping to shooting.",
-        path: {CollectingParts},
+        path: '../Images/CollectingParts.png',
         tags: [{id: "1", name: "Godot"}, {id: "2", name:"GDScript"}]
     },
     {
@@ -23,7 +20,7 @@ const initalProjectList = [
         githubLink: "https://github.com/Kristoffer-Martinsen/home-page",
         demoLink: "https://kristoffer-martinsen.github.io/home-page/",
         description: "My portfolio website made with ReactJS (create-react-app) where I show the projects I've made during my software developer journey.",
-        path: {Homepage},
+        path: '../Images/home-page.png',
         tags: [{id: "1", name:"JavaScript"}, {id: "2", name:"ReactJS"}, {id: "3", name:"Bootstrap"}]
     },
 ]
