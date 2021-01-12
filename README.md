@@ -1,1 +1,1 @@
-A portfolio page for my software developer career. Made with ReactJS and CSS. 
+A portfolio page for the project I have made during my software developer career. Made with ReactJS and React-Bootstrap.  
